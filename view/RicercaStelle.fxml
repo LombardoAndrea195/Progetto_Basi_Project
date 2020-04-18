@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="application.view.RicercaStelle">
+   <children>
+      <AnchorPane layoutX="-37.0" layoutY="-21.0" prefHeight="405.0" prefWidth="581.0">
+         <children>
+            <Text layoutX="162.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RICERCA STELLE">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Text>
+            <TextField fx:id="Lato1" layoutX="130.0" layoutY="220.0" promptText="Inserisci base" />
+            <TextField fx:id="Lato2" layoutX="307.0" layoutY="220.0" promptText="Inserisci altezza" />
+            <TextField fx:id="posizioneLong" layoutX="307.0" layoutY="141.0" promptText="Inserisci Longitudine" />
+            <TextField fx:id="posizioneLat" layoutX="130.0" layoutY="141.0" promptText="Inserisci Latitudine" />
+            <Text layoutX="236.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Posizione centroide: " />
+            <Text layoutX="236.0" layoutY="207.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dati del mio rettangolo" />
+            <Button fx:id="closeButton" layoutX="153.0" layoutY="290.0" mnemonicParsing="false" onAction="#chiudi" prefHeight="48.0" prefWidth="79.0" text="CHIUDI" />
+            <Button layoutX="336.0" layoutY="290.0" mnemonicParsing="false" onAction="#ricercaStelleSuRettangolo" prefHeight="48.0" prefWidth="91.0" text="RICERCA" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

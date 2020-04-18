@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.view.RegistraUtente">
+   <children>
+      <AnchorPane layoutX="28.0" layoutY="14.0" prefHeight="361.0" prefWidth="577.0">
+         <children>
+            <Label graphicTextGap="10.0" layoutX="73.0" layoutY="3.0" prefHeight="87.0" prefWidth="389.0" text="REGISTRA UN UTENTE :" textAlignment="RIGHT" textOverrun="CENTER_ELLIPSIS" underline="true">
+               <font>
+                  <Font size="28.0" />
+               </font></Label>
+            <Label layoutX="27.0" layoutY="122.0" text="NOME" />
+            <Label layoutX="254.0" layoutY="120.0" text="COGNOME" />
+            <Label layoutX="252.0" layoutY="172.0" text="PASSWORD" />
+            <Label layoutX="28.0" layoutY="232.0" text="EMAIL" />
+            <Label layoutX="22.0" layoutY="172.0" text="USER-ID" />
+            <TextField fx:id="nome" layoutX="85.0" layoutY="118.0" promptText="Inserisci il nome" />
+            <TextField fx:id="user" layoutX="85.0" layoutY="169.0" promptText="Inserisci un Id" />
+            <TextField fx:id="cognome" layoutX="334.0" layoutY="118.0" promptText="Inserisci il cognome" />
+            <TextField fx:id="email" layoutX="85.0" layoutY="228.0" promptText="Inserisci la tua email" />
+            <Button fx:id="closeButton" layoutX="97.0" layoutY="303.0" mnemonicParsing="false" onAction="#handleEsci" text="CHIUDI" />
+            <Button layoutX="347.0" layoutY="303.0" mnemonicParsing="false" onAction="#registra11" text="CONFERMA" />
+            <Button layoutX="228.0" layoutY="303.0" mnemonicParsing="false" onAction="#cancella" text="PULISCI" />
+            <PasswordField fx:id="password" layoutX="334.0" layoutY="169.0" promptText="Inserisci una password" />
+            <ComboBox fx:id="tipoUt" layoutX="335.0" layoutY="227.0" prefWidth="150.0" promptText="Tipologia Utente" />
+            <Label layoutX="270.0" layoutY="231.0" text="TIPO" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

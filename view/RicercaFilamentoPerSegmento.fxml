@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.view.RicercaFilamentoPerSegmento">
+   <children>
+      <AnchorPane layoutX="-13.0" layoutY="-13.0" prefHeight="443.0" prefWidth="549.0">
+         <children>
+            <Text layoutX="38.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RICERCA FILAMENTO PER NUMERO SEGMENTI">
+               <font>
+                  <Font name="Arial Black" size="18.0" />
+               </font>
+            </Text>
+            <TextField fx:id="Min" layoutX="119.0" layoutY="186.0" prefHeight="25.0" prefWidth="127.0" />
+            <Text layoutX="74.0" layoutY="203.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MIN" />
+            <TextField fx:id="Max" layoutX="356.0" layoutY="186.0" />
+            <Text layoutX="305.0" layoutY="203.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MAX" />
+            <Button layoutX="356.0" layoutY="333.0" mnemonicParsing="false" onAction="#ricercaNumeroSegmentiFilamento" prefHeight="25.0" prefWidth="96.0" text="CERCA" />
+            <Button fx:id="closeButton" layoutX="144.0" layoutY="333.0" mnemonicParsing="false" onAction="#chiudi" prefHeight="25.0" prefWidth="96.0" text="CHIUDI" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

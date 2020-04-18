@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.view.RicercaFilamento">
+   <children>
+      <AnchorPane layoutX="-62.0" layoutY="-38.0" prefHeight="387.0" prefWidth="523.0">
+         <children>
+            <Text layoutX="170.0" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RICERCA FILAMENTO">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Text>
+            <TextField fx:id="Id" layoutX="106.0" layoutY="147.0" prefHeight="25.0" prefWidth="163.0" promptText="INSERISCI ID" />
+            <TextField fx:id="Nome" layoutX="109.0" layoutY="210.0" prefHeight="25.0" prefWidth="163.0" promptText="INSERISCI NOME" />
+            <Button layoutX="311.0" layoutY="147.0" mnemonicParsing="false" onAction="#ricercaIdFilamento" prefHeight="25.0" prefWidth="186.0" text="TROVA FILAMENTO PER ID" />
+            <Button layoutX="311.0" layoutY="210.0" mnemonicParsing="false" onAction="#ricercaNomeFilamento" prefHeight="25.0" prefWidth="186.0" text="TROVA FILAMENTO PER NOME" />
+            <Button fx:id="closeButton" layoutX="124.0" layoutY="287.0" mnemonicParsing="false" onAction="#chiudi" prefHeight="59.0" prefWidth="127.0" text="CHIUDI" />
+            <Button layoutX="321.0" layoutY="287.0" mnemonicParsing="false" onAction="#cancella" prefHeight="59.0" prefWidth="127.0" text="PULISCI" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

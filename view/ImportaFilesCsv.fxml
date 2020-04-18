@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="382.0" prefWidth="426.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.view.ImportareCsv">
+   <children>
+      <AnchorPane layoutX="-132.0" layoutY="-28.0" prefHeight="461.0" prefWidth="535.0">
+         <children>
+            <Text layoutX="215.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Inserisci File Csv" textAlignment="CENTER" wrappingWidth="258.76171875">
+               <font>
+                  <Font name="Arial Black" size="25.0" />
+               </font>
+            </Text>
+            <ComboBox fx:id="tipo" layoutX="235.0" layoutY="160.0" prefHeight="25.0" prefWidth="218.0" promptText="Seleziona il file csv" />
+            <TextField fx:id="pathCsv" layoutX="235.0" layoutY="241.0" prefHeight="25.0" prefWidth="218.0" promptText="Inserisci path del csv sopra scelto" />
+            <Button layoutX="413.0" layoutY="352.0" mnemonicParsing="false" onAction="#importa" prefHeight="49.0" prefWidth="67.0" text="IMPORTA" />
+            <Button fx:id="closeButton" layoutX="182.0" layoutY="352.0" mnemonicParsing="false" onAction="#chiudi" prefHeight="49.0" prefWidth="67.0" text="Chiudi" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

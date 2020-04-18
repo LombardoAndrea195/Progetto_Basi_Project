@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="557.0" prefWidth="534.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.view.AccessoAmministratore">
+   <children>
+      <AnchorPane layoutY="-11.0" prefHeight="638.0" prefWidth="622.0">
+         <children>
+            <Label layoutX="42.0" layoutY="19.0" prefHeight="59.0" prefWidth="377.0" text="BENVENUTO AMMINISTRATORE">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Button fx:id="closeButton" layoutX="479.0" layoutY="61.0" mnemonicParsing="false" onAction="#logout" text="LOGOUT" />
+            <Button layoutX="460.0" layoutY="139.0" mnemonicParsing="false" onAction="#importaFileCsv" text="Apri" />
+            <Button layoutX="460.0" layoutY="190.0" mnemonicParsing="false" onAction="#registraUtente" text="Apri" />
+            <Button layoutX="460.0" layoutY="469.0" mnemonicParsing="false" onAction="#ricercaStelleInFilamento" text="Apri" />
+            <Button layoutX="460.0" layoutY="428.0" mnemonicParsing="false" onAction="#ricercaSuRegione" text="Apri" />
+            <Button layoutX="460.0" layoutY="353.0" mnemonicParsing="false" onAction="#RicercaBrillantezza" text="Apri" />
+            <Button layoutX="460.0" layoutY="389.0" mnemonicParsing="false" onAction="#RicercaPerSegmento" text="Apri" />
+            <Button layoutX="460.0" layoutY="233.0" mnemonicParsing="false" onAction="#registraSatellite" text="Apri" />
+            <Button layoutX="460.0" layoutY="276.0" mnemonicParsing="false" onAction="#registraStrumento" text="Apri" />
+            <Button layoutX="460.0" layoutY="313.0" mnemonicParsing="false" onAction="#RicercaFilamento" text="Apri" />
+            <Label layoutX="126.0" layoutY="70.0" text="Come posso aiutarti?" />
+            <Button layoutX="462.0" layoutY="507.0" mnemonicParsing="false" onAction="#ricercaStelle" text="Apri" />
+            <Button layoutX="462.0" layoutY="543.0" mnemonicParsing="false" onAction="#RicercaDistanzaVerticiSegmentoContorno" text="Apri" />
+            <Button layoutX="462.0" layoutY="586.0" mnemonicParsing="false" onAction="#ricercaStellaRispettoSpina" text="Apri" />
+            <Label layoutX="46.0" layoutY="143.0" prefHeight="17.0" prefWidth="393.0" text="Importare un nuovo file dei dati scientifici di un satellite" />
+            <Label layoutX="44.0" layoutY="194.0" prefHeight="17.0" prefWidth="393.0" text="Registrare un nuovo utente" />
+            <Label layoutX="44.0" layoutY="237.0" prefHeight="17.0" prefWidth="393.0" text="Inserire i dati di un satellite" />
+            <Label layoutX="47.0" layoutY="280.0" prefHeight="17.0" prefWidth="393.0" text="Inserire i dati degli strumenti con le relative bande" />
+            <Label layoutX="45.0" layoutY="317.0" prefHeight="17.0" prefWidth="393.0" text="Ricerca un filamento e le relative informazioni" />
+            <Label layoutX="42.0" layoutY="357.0" prefHeight="17.0" prefWidth="393.0" text="Ricerca di una struttura per contrasto ed ellitticità" />
+            <Label layoutX="47.0" layoutY="590.0" prefHeight="17.0" prefWidth="393.0" text="Posizione di una stella rispetto alla spina dorsale" />
+            <Label layoutX="44.0" layoutY="547.0" prefHeight="17.0" prefWidth="393.0" text="Distanza di un vertice di un segmento dal contorno" />
+            <Label layoutX="47.0" layoutY="511.0" prefHeight="17.0" prefWidth="393.0" text="Frazione di stelle in formazione nei filamenti all’interno di una regione" />
+            <Label layoutX="43.0" layoutY="472.0" prefHeight="17.0" prefWidth="393.0" text="Ricerca di un oggetto di tutte le stelle all’interno di una struttura estesa" />
+            <Label layoutX="42.0" layoutY="432.0" prefHeight="17.0" prefWidth="393.0" text="Ricerca di un oggetto  all'interno di una regione" />
+            <Label layoutX="43.0" layoutY="391.0" prefHeight="17.0" prefWidth="393.0" text="Ricerca di una struttura estesa per numero di segmenti" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

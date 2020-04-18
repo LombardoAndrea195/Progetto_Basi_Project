@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.web.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="309.0" prefWidth="490.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.view.Login">
+   <children>
+      <AnchorPane layoutY="6.0" prefHeight="325.0" prefWidth="500.0">
+         <children>
+            <Button layoutX="120.0" layoutY="259.0" mnemonicParsing="false" onAction="#accedi" text="Accedi" AnchorPane.bottomAnchor="41.0" AnchorPane.leftAnchor="120.0" AnchorPane.rightAnchor="328.0" AnchorPane.topAnchor="259.0" />
+            <Button layoutX="334.0" layoutY="259.0" mnemonicParsing="false" onAction="#handleEsci" prefHeight="25.0" prefWidth="60.0" text="Chiudi" AnchorPane.bottomAnchor="41.0" AnchorPane.leftAnchor="334.0" AnchorPane.rightAnchor="106.0" AnchorPane.topAnchor="259.0" />
+            <Button layoutX="220.0" layoutY="259.0" mnemonicParsing="false" onAction="#cancella" prefHeight="25.0" prefWidth="60.0" text="Annulla" AnchorPane.bottomAnchor="41.0" AnchorPane.leftAnchor="220.0" AnchorPane.rightAnchor="220.0" AnchorPane.topAnchor="259.0" />
+            <PasswordField fx:id="password" layoutX="157.0" layoutY="157.0" prefHeight="25.0" prefWidth="239.0" AnchorPane.bottomAnchor="143.0" AnchorPane.leftAnchor="157.0" AnchorPane.rightAnchor="104.0" AnchorPane.topAnchor="157.0" />
+            <Label layoutX="65.0" layoutY="163.0" prefHeight="13.0" prefWidth="75.0" text="PASSWORD" AnchorPane.leftAnchor="65.0">
+               <font>
+                  <Font name="Batang" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="69.0" layoutY="107.0" prefHeight="13.0" prefWidth="60.0" text="USER-ID" AnchorPane.bottomAnchor="205.0" AnchorPane.leftAnchor="69.0" AnchorPane.rightAnchor="371.0" AnchorPane.topAnchor="107.0">
+               <font>
+                  <Font name="Batang" size="12.0" />
+               </font>
+            </Label>
+            <TextField fx:id="user" layoutX="154.0" layoutY="108.0" prefHeight="25.0" prefWidth="239.0" AnchorPane.bottomAnchor="192.0" AnchorPane.leftAnchor="154.0" AnchorPane.rightAnchor="107.0" AnchorPane.topAnchor="108.0" />
+            <Text layoutX="224.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" LOGIN:" wrappingWidth="112.32421875">
+               <font>
+                  <Font name="Arial Black" size="24.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

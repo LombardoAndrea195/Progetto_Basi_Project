@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.view.RicercaStelleInFilamento">
+   <children>
+      <AnchorPane layoutX="-13.0" layoutY="-10.0" prefHeight="357.0" prefWidth="453.0">
+         <children>
+            <Text layoutX="117.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RICERCA DI STELLE ALL'INTERNO DI UN FILAMENTO" />
+            <TextField fx:id="IdFilamento" layoutX="261.0" layoutY="133.0" promptText="INSERISCI ID" />
+            <Text layoutX="58.0" layoutY="150.0" strokeType="OUTSIDE" strokeWidth="0.0" text="INSERISCI L'ID DEL FILAMENTO:" />
+            <Button fx:id="closeButton" layoutX="102.0" layoutY="242.0" mnemonicParsing="false" onAction="#chiudi" prefHeight="45.0" prefWidth="69.0" text="CHIUDI" />
+            <Button layoutX="252.0" layoutY="240.0" mnemonicParsing="false" onAction="#ricercaStelleInFilamento" prefHeight="45.0" prefWidth="69.0" text="RICERCA" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="290.0" prefWidth="411.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.view.RicercaDistanzaVerticiSegmentoContorno">
+   <children>
+      <AnchorPane layoutX="-6.0" prefHeight="329.0" prefWidth="417.0">
+         <children>
+            <Text layoutX="111.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ricerca Distanza Vertici Segmento Contorno" />
+            <TextField fx:id="SegmentoId" layoutX="220.0" layoutY="151.0" />
+            <Text layoutX="100.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Inserisci IdSegmento" />
+            <Button fx:id="closeButton" layoutX="85.0" layoutY="245.0" mnemonicParsing="false" onAction="#chiudi" text="CHIUDI" />
+            <Button layoutX="279.0" layoutY="245.0" mnemonicParsing="false" onAction="#ricercaDistanzaSegmento" text="RICERCA" />
+            <Button layoutX="183.0" layoutY="245.0" mnemonicParsing="false" onAction="#cancella" text="CANCELLA" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

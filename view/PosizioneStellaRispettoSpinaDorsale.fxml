@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="457.0" prefWidth="596.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.view.PosizioneStellaRispettoSpinaDorsale">
+   <children>
+      <AnchorPane layoutX="-111.0" layoutY="-124.0" prefHeight="484.0" prefWidth="623.0">
+         <children>
+            <Text layoutX="263.0" layoutY="194.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RICERCA POSIZIONE DI UNA STELLA RISPETTO ALLA SPINA DORSALE " />
+            <Text layoutX="349.0" layoutY="293.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID FILAMENTO" />
+            <TextField fx:id="Id" layoutX="448.0" layoutY="276.0" promptText="ID FILAMENTO" />
+            <Button fx:id="closeButton" layoutX="346.0" layoutY="479.0" mnemonicParsing="false" onAction="#chiudi" prefHeight="68.0" prefWidth="130.0" text="CHIUDI" />
+            <Button layoutX="419.0" layoutY="388.0" mnemonicParsing="false" onAction="#ricercaDistanza" text="RICERCA ORDINANDO RISPETTO DISTANZA" />
+            <Button layoutX="172.0" layoutY="388.0" mnemonicParsing="false" onAction="#ricercaDistanza2" text="RICERCA ORDINANDO RISPETTO FLUSSO" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

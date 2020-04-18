@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="480.0" prefWidth="571.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.view.SchermataRicercaBrillantezza">
+   <children>
+      <AnchorPane layoutX="-18.0" prefHeight="540.0" prefWidth="631.0">
+         <children>
+            <TableView fx:id="table" layoutX="17.0" prefHeight="462.0" prefWidth="615.0">
+              <columns>
+                <TableColumn fx:id="Id" prefWidth="75.0" text="IdFilamento" />
+                <TableColumn fx:id="Nome" prefWidth="75.0" text="Nome" />
+                  <TableColumn fx:id="FlussoTotale" prefWidth="99.0" text="Flusso Totale" />
+                  <TableColumn fx:id="Ellitticita" prefWidth="106.0" text="Ellitticità" />
+                  <TableColumn fx:id="TemperaturaMedia" prefWidth="130.0" text="Temperatura Media" />
+                  <TableColumn fx:id="DensitaMedia" prefWidth="129.0" text="Densità Media" />
+              </columns>
+            </TableView>
+            <Button fx:id="closeButton" layoutX="289.0" layoutY="489.0" mnemonicParsing="false" onAction="#handleOK" text="CHIUDI" />
+            <Button layoutX="69.0" layoutY="489.0" mnemonicParsing="false" onAction="#previous" text="INDIETRO" />
+            <Button layoutX="507.0" layoutY="489.0" mnemonicParsing="false" onAction="#next" text="AVANTI" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="312.0" prefWidth="457.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.view.SchermataDistanzaSegmentoContorno">
+   <children>
+      <AnchorPane prefHeight="391.0" prefWidth="470.0">
+         <children>
+            <Text layoutX="27.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SCHERMATA RICERCA DISTANZA VERTICI DI UN SEGMENTO DAL CONTORNO:" />
+            <Button fx:id="closeButton" layoutX="284.0" layoutY="329.0" mnemonicParsing="false" onAction="#chiudi" text="CHIUDI" />
+            <Text layoutX="27.0" layoutY="111.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LA DISTANZA DOVUTA DAL VERTICE CHE IDENTIFICA IL NUMERO PROGRESSIVO PIU' PICCOLO:" wrappingWidth="225.201171875" />
+            <Text layoutX="27.0" layoutY="209.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LA DISTANZA DOVUTA DAL VERTICE CHE IDENTIFICA IL NUMERO PROGRESSIVO PIU' GRANDE:" wrappingWidth="225.201171875" />
+            <Label fx:id="distanzaVMin" layoutX="325.0" layoutY="115.0" />
+            <Label fx:id="distanzaVMax" layoutX="316.0" layoutY="213.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

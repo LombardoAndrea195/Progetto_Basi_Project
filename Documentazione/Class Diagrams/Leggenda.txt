@@ -1,0 +1,14 @@
+Attuando il pattern del MODEL VIEW CONTROLLER possiamo analizzare dal ClassDiagram il flusso
+di dati che permette di passare dalla boundary ovvero la view al controller attraverso le bean,
+sarà poi il controller che prenderà le informazioni recapitate come bean e comunicherà attrverso 
+le model con il Dao il quale contiene al suo interno informazioni di Model che a seconda 
+dell'occorrenza saranno recapitate al Controller il quale sostituirà il model ad un bean per ripassare
+l'informazioni alle view:
+In questo possiamo vedere nello specifico:
+
+Il File ClassDiagrams->contiene tutte le informazioni delle classi e tutti i collegamenti di tutto il progetto
+Il File ClassDiagrams Utente->contiene tutte le informazioni delle classi  relative alla registrazione di un Utente e il Login(requisiti 1-2-3.2)
+Il File ClassDiagrams -Filamento-Segmento-Contorno>contiene tutte le informazioni delle classi relative ai requisiti 5,6,7,8,11,3.1 o 4
+Il File ClassDiagrams-Strumento-OgettiSatellitari-Banda->contiene tutte le informazioni delle classi relative ai requisiti 3.4,3.1 o 4
+Il File ClassDiagrams-Strumento-Satellite-Banda>contiene tutte le informazioni delle classi relative ai requisiti 3.3,3.1 o 4
+Il File ClassDiagrams-Filamenti-Stella-Contorno-Segmento->contiene tutte le informazioni delle classi relative ai requisiti 9-10-12-3.1 o 4

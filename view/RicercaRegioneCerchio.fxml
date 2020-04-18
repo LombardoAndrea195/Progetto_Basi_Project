@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.view.RicercaRegioneCerchio">
+   <children>
+      <AnchorPane prefHeight="423.0" prefWidth="633.0">
+         <children>
+            <TableView fx:id="table" prefHeight="362.0" prefWidth="633.0">
+              <columns>
+                <TableColumn fx:id="Id" prefWidth="120.0" text="IDFILAMENTO" />
+                <TableColumn fx:id="Nome" prefWidth="75.0" text="NOME" />
+                  <TableColumn fx:id="FlussoTotale" prefWidth="120.0" text="FLUSSOTOTALE" />
+                  <TableColumn fx:id="Ellitticita" text="ELLITTICITA'" />
+                  <TableColumn fx:id="TemperaturaMedia" prefWidth="135.0" text="TEMPERATURA MEDIA" />
+                  <TableColumn fx:id="DensitaMedia" prefWidth="102.0" text="DENSITA' MEDIA" />
+              </columns>
+            </TableView>
+            <Button fx:id="closeButton" layoutX="276.0" layoutY="376.0" mnemonicParsing="false" onAction="#handleOK" text="CHIUDI" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

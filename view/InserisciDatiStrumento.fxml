@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.view.InserisciDatiStrumento">
+   <children>
+      <AnchorPane layoutX="-6.0" layoutY="3.0" prefHeight="342.0" prefWidth="443.0">
+         <children>
+            <Label layoutX="93.0" layoutY="22.0" prefHeight="54.0" prefWidth="261.0" text="Inserisci Un nuovo Strumento:">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <Button fx:id="closeButton" layoutX="39.0" layoutY="230.0" mnemonicParsing="false" onAction="#chiudi" prefHeight="72.0" prefWidth="96.0" text="CHIUDI" />
+            <Button layoutX="319.0" layoutY="230.0" mnemonicParsing="false" onAction="#registraStrumento" prefHeight="72.0" prefWidth="87.0" text="INSERISCI" />
+            <Button layoutX="187.0" layoutY="230.0" mnemonicParsing="false" onAction="#cancella" prefHeight="72.0" prefWidth="96.0" text="PULISCI" />
+         </children>
+      </AnchorPane>
+      <TextField fx:id="LunghezzaOnda" layoutX="211.0" layoutY="170.0" prefHeight="25.0" prefWidth="174.0" />
+      <Text layoutX="80.0" layoutY="187.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LUNGHEZZA ONDA" />
+      <TextField fx:id="NomeStrumento" layoutX="211.0" layoutY="120.0" prefHeight="25.0" prefWidth="174.0" />
+      <Text layoutX="80.0" layoutY="137.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NOME STRUMENTO " />
+   </children>
+</AnchorPane>

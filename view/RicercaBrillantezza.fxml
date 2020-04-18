@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="375.0" prefWidth="472.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.view.RicercaBrillantezza">
+   <children>
+      <AnchorPane layoutX="6.0" prefHeight="366.0" prefWidth="466.0">
+         <children>
+            <Button fx:id="closeButton" layoutX="99.0" layoutY="289.0" mnemonicParsing="false" onAction="#chiudi" prefHeight="31.0" prefWidth="66.0" text="CHIUDI" />
+            <Button layoutX="294.0" layoutY="289.0" mnemonicParsing="false" onAction="#ricercaBrillantezza" prefHeight="31.0" prefWidth="73.0" text="RICERCA" />
+            <TextField fx:id="EllitticitaMax" layoutX="261.0" layoutY="195.0" prefHeight="25.0" prefWidth="87.0" promptText="MAX" />
+            <TextField fx:id="EllitticitaMin" layoutX="111.0" layoutY="195.0" prefHeight="25.0" prefWidth="87.0" promptText="MIN" />
+            <TextField fx:id="Brillantezza" layoutX="244.0" layoutY="85.0" prefHeight="25.0" prefWidth="109.0" />
+            <Text layoutX="115.0" layoutY="167.0" strokeType="OUTSIDE" strokeWidth="0.0" text="INSERISCI UN RANGE PER L'ELLITTICITA'" />
+            <Text layoutX="65.0" layoutY="102.0" strokeType="OUTSIDE" strokeWidth="0.0" text="INSERISCI CONTRASTO" />
+         </children>
+      </AnchorPane>
+      <Text layoutX="92.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RICERCA BRILLANTEZZA">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

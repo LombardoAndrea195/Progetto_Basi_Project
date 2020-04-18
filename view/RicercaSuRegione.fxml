@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.view.RicercaSuRegione">
+   <children>
+      <AnchorPane layoutX="-14.0" prefHeight="468.0" prefWidth="519.0">
+         <children>
+            <Text layoutX="86.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RICERCA OGGETTI TRAMITE UNA REGIONE ">
+               <font>
+                  <Font name="Arial" size="18.0" />
+               </font>
+            </Text>
+            <TextField fx:id="Lato" layoutX="40.0" layoutY="234.0" prefHeight="25.0" prefWidth="227.0" promptText="INSERISCI LA DIMENSIONE DEL  LATO" />
+            <TextField fx:id="Raggio" layoutX="40.0" layoutY="291.0" prefHeight="25.0" prefWidth="227.0" promptText="INSERISCI LA DIMENSIONE DEL RAGGIO" />
+            <Button layoutX="308.0" layoutY="234.0" mnemonicParsing="false" onAction="#ricercaFilamentoSuQuadrato" text="CERCA SU UN QUADRATO" />
+            <Button layoutX="306.0" layoutY="291.0" mnemonicParsing="false" onAction="#ricercaConRaggio" prefHeight="25.0" prefWidth="158.0" text="CERCA SU UN CERCHIO" />
+            <Button fx:id="closeButton" layoutX="234.0" layoutY="388.0" mnemonicParsing="false" onAction="#chiudi" text="CHIUDI" />
+            <TextField fx:id="posizioneLat" layoutX="79.0" layoutY="159.0" promptText="LATITUDINE" />
+            <TextField fx:id="posizioneLong" layoutX="280.0" layoutY="159.0" promptText="LONGITUDINE" />
+            <Text layoutX="176.0" layoutY="136.0" strokeType="OUTSIDE" strokeWidth="0.0" text="INSERISCI DATI DEL CENTROIDE" wrappingWidth="170.279296875" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

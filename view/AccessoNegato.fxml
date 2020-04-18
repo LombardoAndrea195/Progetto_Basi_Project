@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="251.0" prefWidth="288.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.view.AccessoNegato">
+   <children>
+      <AnchorPane layoutX="7.0" layoutY="-49.0" prefHeight="250.0" prefWidth="281.0">
+         <children>
+            <Label layoutX="56.0" layoutY="86.0" prefHeight="41.0" prefWidth="214.0" text="ERRORE:ACCESSO NEGATO" />
+            <Button fx:id="closeButton" layoutX="44.0" layoutY="157.0" mnemonicParsing="false" onAction="#chiudi" prefHeight="89.0" prefWidth="169.0" text="CHIUDI" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.view.RicercaRegioneQuadratica">
+   <children>
+      <AnchorPane prefHeight="406.0" prefWidth="520.0">
+         <children>
+            <TableView fx:id="table" prefHeight="312.0" prefWidth="520.0">
+              <columns>
+                <TableColumn fx:id="Id" prefWidth="89.0" text="IDFILAMENTO" />
+                <TableColumn fx:id="Nome" prefWidth="53.0" text="NOME" />
+                  <TableColumn fx:id="FlussoTotale" prefWidth="92.0" text="FLUSSOTOTALE" />
+                  <TableColumn fx:id="Ellitticita" prefWidth="76.0" text="ELLITTICITA'" />
+                  <TableColumn fx:id="TemperaturaMedia" prefWidth="98.0" text="TEMPERATURA" />
+                  <TableColumn fx:id="DensitaMedia" prefWidth="111.0" text="DENSITA' MEDIA" />
+              </columns>
+            </TableView>
+            <Button fx:id="closeButton" layoutX="232.0" layoutY="350.0" mnemonicParsing="false" onAction="#handleOK" text="CHIUDI" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
